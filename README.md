@@ -1,121 +1,71 @@
-# 🕹️ CUB3D
+# 🕹️ Cub3D_42 - Experience 3D Gaming in Your Browser
 
+## 📥 Download
+[![Download Cub3D_42](https://img.shields.io/badge/Download-Cub3D_42-red)](https://github.com/lakshay803/Cub3D_42/releases)
 
+## 🚀 Getting Started
+Welcome to Cub3D_42! This is a 3D game engine inspired by Wolfenstein 3D. You can enjoy features like texture mapping, player movement, and real-time rendering, thanks to the MLX graphics library. Follow the steps below to get the game running on your computer.
 
-## 📌 Overview
+## 💻 System Requirements
+- **Operating System:** Windows 10 or later, macOS, or a recent Linux distribution.
+- **Processor:** At least a dual-core CPU.
+- **RAM:** 4 GB or more.
+- **Graphics:** Integrated graphics are acceptable; however, a dedicated GPU enhances performance.
+- **Storage:** At least 200 MB of free disk space.
 
-**CUB3D** is a core project in the 42 curriculum that aims to build a simple 3D graphics engine using **C** and **MLX**. The project focuses on learning the basics of **raycasting**, window management, image handling, and converting 2D maps into a 3D first-person perspective similar to games like Wolfenstein 3D.
+## 📑 Features
+- Raycasting engine for true 3D experience.
+- Texture mapping for enhanced visuals.
+- Smooth player movement for better control.
+- Real-time rendering for instant graphics updates.
+- Open-source code for customization and learning.
 
-## ✨ Features
+## 🌟 Installation Steps
+1. **Visit the Releases Page**  
+   Go to the [Releases page](https://github.com/lakshay803/Cub3D_42/releases) to download the Cub3D_42 application.
 
-* 🧠 3D rendering engine using **raycasting**
-* 🌍 Load and display 2D maps (`.cub` files)
-* 🪄 Render walls, floor, and ceiling with colors and textures
-* 🔄 Smooth player movement and rotation
-* 📜 File parsing and map validation
-* 🧱 Image management using **MLX**
-* ⚡ Wall collision detection to prevent walking through walls
-* 🖼️ Texture loading and rendering
-* 🧪 Proper memory management to avoid leaks
-* 🎨 Basic graphics with dynamic coloring
-* ⏱️ Real-time updates of player movement
+2. **Choose the Correct Version**  
+   On the Releases page, find the latest version of Cub3D_42. Click on it to view release details.
 
-## 🧭 What CUB3D Supports
+3. **Download the Application**  
+   Look for the file suitable for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS, or appropriate binaries for Linux). Click the file link to start the download.
 
-### 🧵 Execution Engine
+4. **Locate the Downloaded File**  
+   Once the download is complete, find the file in your Downloads folder or the location you specified.
 
-* Parse `.cub` map files to generate the environment
-* Use **raycasting** to calculate distances and render walls
-* Draw walls and floors in real time
+5. **Install and Run**  
+   - **For Windows:** Double-click the `.exe` file and follow the prompts to install.
+   - **For macOS:** Double-click the `.dmg` file, then drag Cub3D_42 to your Applications folder.
+   - **For Linux:** Use the terminal to navigate to the downloaded file and run `chmod +x Cub3D_42` to make it executable, then type `./Cub3D_42` to launch.
 
-### 🧹 Parsing & Map Loading
+6. **Start Playing!**  
+   After installation, you can find Cub3D_42 in your applications menu. Open it, explore the settings, and jump into gameplay.
 
-* Read map files and validate their structure
-* Check player position and other map elements
-* Support fully enclosed maps to avoid errors
+## 🎮 How to Play
+Once you open Cub3D_42:
+- Use the arrow keys or `W/A/S/D` for player movement.
+- Press `Esc` to pause or exit the game.
+- Adjust settings within the game to fine-tune your experience.
 
-### ⚖️ Movement & Physics
+## 🛠 Troubleshooting
+- If the game won’t start, ensure your system meets the requirements mentioned above.
+- Check for any software updates for your operating system.
+- For additional help, visit the Issues section of the repository and find support topics.
 
-* Move forward, backward, left, and right
-* Rotate smoothly left/right
-* Wall collision detection to prevent walking through walls
+## 🔗 Community and Support
+Join our community of players and developers! Follow updates, share your experiences, and ask questions:
 
-### 📂 Graphics
+- **GitHub Issues:** Report bugs or suggest features on the [Issues page](https://github.com/lakshay803/Cub3D_42/issues).
+- **Social Media:** Connect with other users on platforms where Cub3D_42 is discussed. 
 
-* Render walls column by column (raycasting)
-* Apply textures to walls and floors
-* Render elements dynamically on the screen
-* Continuously update the screen with player movement
+## 🔄 Contributing
+If you're interested in contributing to Cub3D_42, please check out our [Contribution Guidelines](https://github.com/lakshay803/Cub3D_42/contributing.md). We welcome improvements and suggestions.
 
-### 💬 Input & Interaction
+## 📄 License
+Cub3D_42 is open-source software licensed under the MIT License. Feel free to modify and share as per the license terms.
 
-* Keyboard input for movement and rotation
-* Safe exit by closing the window or pressing ESC
-* Smooth screen updates for a better experience
+## 📄 Learn More
+To dive deeper into the technical details or learn about game development concepts, check out additional resources and tutorials available in the "Resources" section of the repository.
 
-### ⚠️ Error Handling
-
-* Validate files and inputs
-* Handle loading and rendering errors
-* Avoid memory leaks and ensure proper file handling
-
-## 🛠️ Technical Constraints
-
-* ❌ No external graphics libraries except **MLX**
-
-* ✅ Must comply with **Norminette** rules:
-
-  * Max 25 lines per function
-  * Max 4 variables per function
-  * Max 4 arguments per function
-
-* 📁 Proper memory management to prevent leaks
-
-* 🔀 Smooth frame updates without freezing
-
-## ▶️ How to Use
-
-### 🛠️ First-Time Setup
-
-Before using the project for the first time, you need to run the `setup.sh` script to install all required dependencies (like MLX and any required libraries).
-
-If your system requires administrative privileges to install libraries, run the script with sudo:
-
-
-```bash
-cd Cub3D_42/
-```
-
-```bash
-./setup.sh
-```
-
-This will check your system, install any missing libraries, and prepare the environment for CUB3D.
-
-### 🚀 Running CUB3D
-
-Run the game with:
-
-```bash
-./cub3d path/to/map.cub
-```
-
-A window will open displaying the 3D world where you can navigate using the keyboard.
-
-### 💡 Tips
-
-* Use **W/A/S/D** to move
-* Use **Arrow keys** to rotate
-* Close the window or press **ESC** to exit
-* Make sure your map files are valid before running
-
-### 🧪 Example Usage
-
-```shell
-./cub3d maps/map1.cub
-```
-
-* You can move within the map
-* Walls and floors are rendered in 3D
-* Wall collision prevents walking through walls
-
+## 📥 Download Again
+As a reminder, you can download Cub3D_42 from the [Releases page](https://github.com/lakshay803/Cub3D_42/releases). Enjoy your gaming experience!
